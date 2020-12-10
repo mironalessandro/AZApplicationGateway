@@ -1,7 +1,7 @@
 ﻿Connect-AzAccount
 
 # Get Azure Application Gateway
-$appgw=Get-AzApplicationGateway -Name DIS-TEST -ResourceGroupName RG-DBG-EUROPE
+$appgw=Get-AzApplicationGateway -Name AGNAME -ResourceGroupName RESOURCEGROUPNAME
 
 # Stop the Azure Application Gateway
 Stop-AzApplicationGateway -ApplicationGateway $appgw
